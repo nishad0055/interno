@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-black);
+}
+
+body {
+  font-family: "DM Serif Text", serif;
+}
+:root {
+  --button-primary: #292f36;
+  --button-secondary: #cda274;
+
+  --text-black: #292f36;
+  --text-grey: #4d5053;
+  --text-yellow: #cda274;
+  --font-jost: "Jost", sans-serif;
+}
+
+/* navbar css */
+
+.navbar-toggler-icon {
+  color: var(--button-primary);
+}
+.nav-item a {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--text-black);
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navbar-brand img {
+  width: 177px;
+  height: 50px;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+.search-bar {
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+.search-bar.active {
+  width: 200px; /* Adjust the width as needed */
+  opacity: 1;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+/* hero css */
+
+.btn-one {
+  padding: 26px 49px 26px 48px;
+  background: var(--button-primary);
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: 18px;
+  color: #fff;
+  font-family: var(--font-jost);
+  font-size: 22px;
+}
+
+.hero-banner {
+  background-image: url(../images/banner.png);
+  height: 758px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-top-right-radius: 7%;
+  border-bottom-right-radius: 7%;
+}
+.hero-banner .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+.hero-content h2 {
+  font-size: 62px;
+  font-weight: 400;
+}
+.hero-content p {
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+}
+.hero-content a img {
+  width: 15.14px;
+  height: 13.18px;
+}
+/* 3 column css */
+
+.column {
+  margin-top: 150px;
+}
+
+.col-info h3 {
+  font-size: 25px;
+  color: var(--text-black);
+}
+.col-info p {
+  font-family: var(--font-jost);
+  font-size: 22px;
+}
+
+/* column 2 info */
+.left-info h3 {
+  font-size: 50px;
+}
+.left-info .text {
+  font-size: 22px;
+  font-family: var(--font-jost);
+  padding: 30px 0;
+}
+.call-info {
+  padding-bottom: 47px;
+}
+.number p {
+  font-family: var(--font-jost);
+  font-size: 24px;
+  font-weight: 700;
+}
+.number small {
+  font-family: var(--font-jost);
+  font-size: 22px;
+  color: var(--text-grey);
+}
