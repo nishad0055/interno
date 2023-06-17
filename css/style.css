@@ -243,6 +243,22 @@ body {
   color: #4d5053;
 }
 
+.overlay-text {
+  position: absolute;
+  bottom: 8px;
+  left: 22px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px 10px 10px 0px;
+}
+.c-border {
+  border-radius: 50px;
+  border-color: #e7e7e7;
+}
+.c-border.active {
+  background-color: #e7e7e7;
+}
+
 /* Responsive Section */
 @media (max-width: 768px) {
   .project-info-header {
