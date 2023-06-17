@@ -140,6 +140,34 @@ body {
   width: 653px;
   height: 700px;
 }
-.btn {
+.btn-pd {
   padding-top: 73px;
+}
+
+/* Testimonial Css */
+.testimonial {
+  background: #f4f0ec;
+  padding: 88px 24px;
+  border-radius: 50px;
+}
+.tesmonital-header h2 {
+  font-size: 50px;
+}
+.card-inner-info p {
+  font-size: 25px;
+  letter-spacing: 1%;
+  line-height: 37.5px;
+}
+.card-inner-info small {
+  font-size: 18px;
+  font-family: var(--font-jost);
+  line-height: 150%;
+  font-weight: 400;
+  color: #4d5053;
+}
+.card-text {
+  font-family: var(--font-jost);
+  font-size: 22px;
+  font-weight: 400;
+  color: #4d5053;
 }
