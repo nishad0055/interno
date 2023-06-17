@@ -12,6 +12,12 @@ a {
   color: var(--text-black);
 }
 
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #292f36;
+}
+
 body {
   font-family: "DM Serif Text", serif;
 }
@@ -197,11 +203,53 @@ body {
   font-family: var(--font-jost);
   color: #4d5053;
 }
+/* Work Complete css */
+.works-bg {
+  background: #f4f0ec;
+}
+
+.works-info {
+  padding: 151px 10px;
+}
+
+.works-info-inner h1 {
+  font-size: 85px;
+  color: #cda274;
+}
+.works-info-inner p {
+  font-size: 22px;
+  font-family: var(--font-jost);
+  color: #4d5053;
+}
+
+.vl {
+  position: absolute;
+  width: 130px;
+  height: 0px;
+  left: 176px;
+  top: 83px;
+  border: 1px solid #cda274;
+  transform: rotate(90deg);
+}
+
+/* Article & News Css */
+.article-header {
+  padding-bottom: 52px;
+}
+.article-header p {
+  font-size: 22px;
+  font-family: var(--font-jost);
+  font-weight: 400;
+  color: #4d5053;
+}
 
 /* Responsive Section */
 @media (max-width: 768px) {
   .project-info-header {
     padding: 0;
+  }
+  .vl {
+    visibility: hidden;
   }
 }
 
