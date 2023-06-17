@@ -171,3 +171,42 @@ body {
   font-weight: 400;
   color: #4d5053;
 }
+
+/* Project Section */
+.project-info-header {
+  padding: 0 232px 93px 232px;
+}
+
+.project-info-header h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.project-info-header p {
+  font-size: 22px;
+  font-family: var(--font-jost);
+}
+.project-text {
+  padding-top: 24px;
+}
+.project-text h6 {
+  font-size: 25px;
+  color: #292f36;
+}
+.project-text p {
+  font-size: 22px;
+  font-family: var(--font-jost);
+  color: #4d5053;
+}
+
+/* Responsive Section */
+@media (max-width: 768px) {
+  .project-info-header {
+    padding: 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .project-info-header {
+    padding: 0 50px 93px 50px;
+  }
+}
