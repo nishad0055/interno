@@ -61,7 +61,7 @@ body {
 /* hero css */
 
 .btn-one {
-  padding: 26px 49px 26px 48px;
+  padding: 22px 49px;
   background: var(--button-primary);
   box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
   border-radius: 18px;
@@ -121,10 +121,9 @@ body {
 .left-info .text {
   font-size: 22px;
   font-family: var(--font-jost);
-  padding: 30px 0;
+  padding: 33px 0 45px;
 }
 .call-info {
-  padding-bottom: 47px;
 }
 .number p {
   font-family: var(--font-jost);
@@ -135,4 +134,12 @@ body {
   font-family: var(--font-jost);
   font-size: 22px;
   color: var(--text-grey);
+}
+
+.right-side img {
+  width: 653px;
+  height: 700px;
+}
+.btn {
+  padding-top: 73px;
 }
