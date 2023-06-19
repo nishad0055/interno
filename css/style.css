@@ -258,8 +258,37 @@ body {
 .c-border.active {
   background-color: #e7e7e7;
 }
+/* Join Us Css */
+
+.join-bg {
+  background-color: #292f36;
+  height: 374px;
+  border-radius: 70px;
+}
+.join-info-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #f4f0ec;
+}
+.join-info-text p {
+  font-size: 22px;
+  font-family: var(--font-jost);
+  font-weight: 400;
+  color: #f4f0ec;
+}
 
 /* Responsive Section */
+
+@media (max-width: 668px) {
+  .join-info-text h1 {
+    font-size: 35px;
+  }
+  .join-info-text p {
+    font-size: 18px;
+    font-family: var(--font-jost);
+  }
+}
+
 @media (max-width: 768px) {
   .project-info-header {
     padding: 0;
