@@ -277,6 +277,13 @@ body {
   color: #f4f0ec;
 }
 
+/* Footer Section Css */
+
+.footer-logo img {
+  width: 177px;
+  height: 50px;
+}
+
 /* Responsive Section */
 
 @media (max-width: 668px) {
